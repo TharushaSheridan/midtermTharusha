@@ -1,0 +1,30 @@
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+strong {
+  font-weight: bold;
+}
+
+p {
+  margin: 10px 0;
+}
+
+p span.yes {
+  color: green;
+}
+
+p span.no {
+  color: red;
+}
