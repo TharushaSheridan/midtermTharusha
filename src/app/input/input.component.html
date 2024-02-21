@@ -1,1 +1,19 @@
-<p>input works!</p>
+<div class="container">
+  <h1>Input Page</h1>
+  <label>Processor Model:</label>
+  <input [(ngModel)]="processorModel" placeholder="Enter processor model" />
+
+  <label>Processor Manufacturer:</label>
+  <div>
+    <label><input type="radio" [(ngModel)]="processorManufacturer" value="Intel" /> Intel</label>
+    <label><input type="radio" [(ngModel)]="processorManufacturer" value="AMD" /> AMD</label>
+    <label><input type="radio" [(ngModel)]="processorManufacturer" value="Apple" /> Apple</label>
+  </div>
+
+  <label>
+    <input type="checkbox" [(ngModel)]="windows11Compatibility" />
+    Windows 11 Compatibility
+  </label>
+
+  <button (click)="onSubmit()">Submit</button>
+</div>

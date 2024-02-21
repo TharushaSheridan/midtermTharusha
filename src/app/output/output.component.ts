@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-output',
   templateUrl: './output.component.html',
-  styles: ``
+  styleUrls: ['./output.component.css'],
 })
-export class OutputComponent {
-
-}
